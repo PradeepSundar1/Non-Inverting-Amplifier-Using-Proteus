@@ -18,6 +18,9 @@ Pin Configuration:
 •	Pin 6 → Output
 •	Pin 7 → +15V
 •	Pin 4 → −15V
+
+<img width="905" height="668" alt="Screenshot 2026-01-23 093750" src="https://github.com/user-attachments/assets/dc2eb8cd-4391-4669-bc7c-9576eb8fe31b" />
+
 ## Theory
 A Non-Inverting Amplifier is a closed-loop amplifier configuration in which the input is applied to the non-inverting terminal (+) of the op-amp.
 The output signal is amplified and remains in phase with the input signal.
@@ -31,8 +34,16 @@ The output signal is amplified and remains in phase with the input signal.
 7.	Run simulation.
 8.	Observe input and output waveforms.
 ## Waveform
+
+<img width="1916" height="1143" alt="Screenshot 2026-01-23 093720" src="https://github.com/user-attachments/assets/24fc634d-966f-421d-80b7-e78e27c76232" />
+
 ## Tabulation
-S.No	Vin (V)	Theoretical Gain	Theoretical Vout (V)	Practical Vout (V)
+S.No	Vin (V)	Theoretical Gain	Theoretical Vout (V)	Practical Vout (V)<br>
+1	0.1	11	1.1	1.07<br>
+2	0.2	11	2.2	2.15<br>
+3	0.5	11	5.5	5.35<br>
+4	1.0	11	11	10.7<br>
+5	1.5	11	16.5	13 (Saturation)<br>
 ## Result
 The Non-Inverting Amplifier using μA741 Op-Amp was designed and simulated successfully.
 The voltage gain obtained is approximately 11.
