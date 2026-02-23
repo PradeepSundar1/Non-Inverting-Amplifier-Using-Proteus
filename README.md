@@ -59,6 +59,7 @@ The output waveform is in phase with the input waveform.
 4.	What happens if Rf increases?
 5.	What is the input impedance of non-inverting amplifier?
 
+## Answer
 1.  A non-inverting amplifier is an op-amp configuration where the input signal is applied to the non-inverting (+) terminal, and the output is fed back to the inverting (−) terminal through a resistor. The output voltage is amplified and in phase with the input.
 2.  Av=1+(Rf/R1)
 3.  The input is applied to the non-inverting terminal (+). Since there is no phase reversal in this configuration, the output follows the same polarity as the input. Therefore, the output is in phase (0° phase shift) with the input.
